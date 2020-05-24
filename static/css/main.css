@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif;
+}
+
+ body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+ } 
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+.content {
+    padding: 50px;
+}
+
+/* ///////////////////////////////////////////////// */
+
+/* IMAGE BOX */
+
+.image-box {
+    border: #ababab solid 1px;
+    padding: 10px;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    min-height: 25em;
+    max-width: 650px;
+    position: relative;
+}
+
+#upload-img {
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+
+/* UPLOAD FILE BUTTON */
+
+ input[type="file"] {
+    display: none;
+}
+
+.custom-button {
+    color: white;
+    text-align: center;
+    background-color: #ababab;
+    padding: 6px 12px;
+    max-width: 200px;
+    cursor: pointer;
+} 
+
+
+
+
+
+
